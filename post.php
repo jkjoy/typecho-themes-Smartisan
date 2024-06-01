@@ -18,11 +18,12 @@
               <time class="post-time">
                 发表于: <?php $this->date(); ?> · 分类 : <?php $this->category(','); ?> · 
               </time> 
-              <a itemprop="keywords" class="post-tag"><?php _e('标签: '); ?><?php $this->tags(', ', true, 'none'); ?></a> 
-            </div>
+              <a itemprop="keywords" class="post-tag">
+                <?php _e('标签: '); ?><?php $this->tags(', ', true, 'none'); ?></a> 
+            </div><br>
             <?php $firstImage = show_first_image($this->content); ?>
            <?php if($firstImage): ?>
-        <div class="post-feature-image" style="background-image: url('<?php echo $firstImage; ?>')">
+            <div class="post-feature-image" style="background-image: url('<?php echo $firstImage; ?>')">
             </div>
           <?php endif; ?>  
             <div class="post-content">
