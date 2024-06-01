@@ -10,17 +10,10 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php $this->need('head.php'); ?>
 </head>
 <body>
-  <div class="main">
+<div class="main">
     <div class="main-content">
     <?php $this->need('header.php'); ?>
-    <div class="content container clearfix">
-    <div class="panel post-container">    
-          <article class="post post-detail">
-    <h1 class="post-title">
-            <?php $this->title() ?>
-            </h1>
-            
-          
+      <div class="content container clearfix">       
 <?php
 $stat = Typecho_Widget::widget('Widget_Stat');
 Typecho_Widget::widget('Widget_Contents_Post_Recent', 'pageSize=' . $stat->publishedPostsNum)->to($archives);
@@ -48,10 +41,6 @@ $output .= '</div>'; // 关闭最后一年的div
 $output .= '</div>'; // End archives container
 echo $output;
 ?>
-</div>
-</article>
-<?php $this->need('sidebar.php'); ?>
-    </div>
   </div> 
       <?php $this->need('footer.php'); ?>
     </div>

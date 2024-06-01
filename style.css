@@ -605,13 +605,13 @@ td {
   padding-bottom: 0;
 }
 .sidebar .offical-SNS .offical-SNS-list {
-  width: 320px;
+  width: auto;
   margin: 0 0 -1px;
   overflow: hidden;
 }
 .sidebar .offical-SNS .offical-SNS-list li {
   float: left;
-  width: 160px;
+  width: 45%;
   height: 66px;
   border-bottom: 1px solid #f1f3f5;
   border-right: 1px solid #f1f3f5;
@@ -665,7 +665,7 @@ td {
   text-align: center;
 }
 .sidebar .pop-dialog .dialog-box .dialog-title .dialog-close {
-  background: url(../smartisan/assets/media/images/btn-close-pop.png) no-repeat;
+  background: url(https://cdn.jsdelivr.net/gh/jkjoy/typecho-themes-Smartisan@master/assets/media/images/btn-close-pop.png) no-repeat;
   cursor: pointer;
   display: inline-block;
   height: 13px;
