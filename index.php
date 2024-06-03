@@ -1,11 +1,11 @@
 <?php
 /**
- * Smartisan  for Typecho
- *
+ * Smartisan  for  Typecho
+ *  移植自Gridea主题 Smartisan
  * @package Smartisan  Theme
- * @author Smartisan 
+ * @author Sun
  * @version 1.2
- * @link http://typecho.org
+ * @link http://imsun.org
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
