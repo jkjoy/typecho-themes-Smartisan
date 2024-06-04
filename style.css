@@ -418,6 +418,7 @@ td {
   justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
+  align-items: center;
 }
 .site-header .title-container .avatar {
   height: 45px;
@@ -430,7 +431,7 @@ td {
 }
 .site-header .menu-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   width: 80%; 
 }
