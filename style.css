@@ -403,7 +403,7 @@ td {
   border-bottom: 1px solid #e9ecef;
   -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
-  height: 75px;
+  height: 54px;
   width: auto;
   -webkit-transition: height 0.1s ease;
   transition: height 0.1s ease;
@@ -418,26 +418,25 @@ td {
   justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
 }
 .site-header .title-container .avatar {
-  height: 32px;
+  height: 45px;
   margin-right: 10px;
 }
 .site-header .title-container .site-title {
   margin-top: 5px;
   line-height: 32px;
-  font-size: 16px;
+  font-size: 24px;
 }
 .site-header .menu-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 80%; /* 确保菜单容器占满整个宽度 */
+  width: 80%; 
 }
 .site-header .menu-container a.menu {
   font-size: 16px;
-  padding: 28px 16px;
+  padding: 20px 12px;
   text-decoration: none; /* 去掉下划线 */
   color: #000; /* 文本颜色 */
 }
