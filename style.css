@@ -403,7 +403,7 @@ td {
   border-bottom: 1px solid #e9ecef;
   -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
-  height: 54px;
+  height: 64px;
   width: auto;
   -webkit-transition: height 0.1s ease;
   transition: height 0.1s ease;
@@ -2090,10 +2090,3 @@ width: 95%;
   flex: none; /* 取消 flex 属性 */
 }
 } 
-/* 响应式调整 */
-@media (max-width: 1000px) {
-  .site-header .menu-container a.menu {
-    font-size: 16px; /* 调整字体大小 */
-    padding: 20px 12px; /* 调整内边距 */
-  }
-}
