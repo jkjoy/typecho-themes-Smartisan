@@ -3,7 +3,7 @@
   <div class="panel slidebar-module">
     <h4 class="panel-title">博主信息</h4>
     <div class="blogger-panel">
-      <img class="avatar" src="<?php $this->options->avatarUrl() ?>" alt="">
+      <img class="avatar" src="<?php $this->options->avatarUrl() ?>" alt="头像">
       <h5 class="author"><?php $this->author(); ?></h5>
       <p class="description"><?php $this->options->profile() ?></p>
     </div>

@@ -33,12 +33,10 @@
     document.addEventListener('DOMContentLoaded', function() {
       const menuToggle = document.querySelector('.menu-toggle');
       const menuContainer = document.querySelector('.menu-container');
-
       // 默认隐藏菜单
       if (window.innerWidth <= 800) {
         menuContainer.style.display = 'none';
       }
-
       menuToggle.addEventListener('click', function() {
         menuContainer.classList.toggle('show');
         if (menuContainer.classList.contains('show')) {
@@ -47,7 +45,6 @@
           menuContainer.style.display = 'none';
         }
       });
-
       // 监听窗口大小变化
       window.addEventListener('resize', function() {
         if (window.innerWidth > 800) {

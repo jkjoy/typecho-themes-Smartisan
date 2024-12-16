@@ -30,10 +30,6 @@
             <?php $this->content(); ?>
             </div>
           </article>
-        <div class="pagination-container">
-           <p class="prev-btn"><?php $this->thePrev('上一篇: %s', '没有了'); ?> </p>
-           <p class="next-btn"><?php $this->theNext('下一篇: %s', '没有了'); ?> </p>
-        </div>
         <?php $this->need('comments.php'); ?>
         </div>      
         <?php $this->need('sidebar.php'); ?>

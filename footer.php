@@ -18,11 +18,8 @@
           <img class="footer-img" src="<?php $this->options->alipay() ?>" alt="支付宝支付二维码">
         </li>
         <?php endif; ?>
-
       </ul>
       <?php if ($this->options->showlink): ?>
-     
-
       <div class="information">
         <h4 class="footer-title">友情链接</h4>
         <ul class="friends">
@@ -36,11 +33,8 @@
       <?php endif; ?>
       <?php if($this->options->qrcode): ?> 
       <div class="media-platform">
-       
         <h4 class="footer-title">微信公众号</h4>
         <img class="footer-img" src="<?php $this->options->qrcode() ?>" alt="公众号">
-      
-     
       </div>   
       <?php endif; ?>
     </div>
@@ -52,21 +46,13 @@
         <li>Designed by <a href="https://imsun.org">Sun</a></li>
       </ul>
       <ul class="icp clearfix">
- 
         <li>
           <a data-v-0e38ecc8="" href="http://beian.miit.gov.cn" target="_blank"><?php $this->options->icpbeian() ?></a>
         </li>
-    
- 
         <li class="public-security">
         <?php $this->options->addfoot() ?>
         </li>
- 
       </ul>
     </div>
- 
 </div>
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
 <?php $this->footer(); ?>
